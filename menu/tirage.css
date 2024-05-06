@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #lottery-numbers {
+    display: flex;
+    justify-content: center;
+    text-align :center;
+
+  }
+  
+  .ball {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ffcc00;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    transition: opacity 0.5s ease;
+  }
+  
+  .countdown {
+    text-align: center;
+    margin-top: 50px; /* Ajustez cela en fonction de votre mise en page */
+  }
+  
